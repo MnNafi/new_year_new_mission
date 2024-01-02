@@ -1,0 +1,303 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Getting margin 0 for fixing the default marign */
+h1, h2, p{
+    margin: 0;
+}
+
+/* I have fixed the line height as per design */
+p{
+    line-height: 26px; 
+}
+
+
+/* First Hero Section Desing Start Here */
+.hero-section{
+    background-image: url(images/banner/banner2.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 0px 230px;
+    gap: 25px;
+}
+
+
+.hero-section-title{
+    font-size: 65px;
+    color: #151414;
+    width: 525px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.hero-section-details{
+    font-size: 16px;
+    color: #444343;
+    width: 495px;
+    text-align: right;
+}
+
+.contact-button{
+    background-color: #F15B22;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+
+}
+
+/* Second Section Desing are start from here */
+
+.second-section{
+    display: flex;
+    padding: 0px 250px;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.canvas-image{
+    width: 569px;
+    height: 665px;
+    object-fit: cover;
+}
+
+.second-section-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.second-section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+}
+
+.second-section-details{
+    color: #444343;
+    font-style: 16px;
+    width: 416px;
+}
+
+.check-list-container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.check-list{
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+    color: #444343;
+    font-style: 16px;
+    gap: 10px;
+}
+
+
+/* Plan section desing Start here */
+.plan-section{
+    padding: 0px 230px;
+    margin-top: 100px;
+}
+.plan-heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-content-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.plan-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Banner Section Desing start here */
+
+.banner-section {
+    margin: 0px 230px;
+    padding-left: 100px;
+    position: relative;
+    background: url(images/watch.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 8px;
+    height: 300px;
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 100px;
+
+}
+
+.banner-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Blend the backgound gradient color with backgound image */
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.banner-section-title{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner-section-button{
+    color: #F15B22;
+    background-color: white;
+    border: none;
+    padding: 25px 40px;
+    width: max-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* Footer Section Design Start Here */
+.footer{
+    padding: 0px 230px;
+    margin-top: 100px;
+    background-color: #151414;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 577px;
+}
+
+.footer-left-content h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.footer-left-content p{
+    width: 485px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+
+.footer-social-icon{
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-right-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-right-content h2{
+    font-size: 25px;
+}
+
+.footer-right-content input{
+    padding: 20px;
+    width: 325px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.footer-right-content input::placeholder{
+    color: #F3F3F3;
+    font-size: 18px;   
+}
+
+
+
+.footer-right-content button{
+    color: #F15B22;
+    background-color: white;
+    border: none;
+    padding: 25px 40px;
+    width: max-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+
+/* Design for Bonus Section */
+
+.bonus-section{
+    padding: 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #a6c0fe, #f68084);
+    height: 100vh;
+    align-items: center;
+}
+
+.table-heading{
+    text-align: center;
+    color: #444343;
+    font-size: 40px;
+}
+
+/* Table Design Start Here */
+
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 25px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+td {
+    background-color: #ecf0f1;
+}
+
+.bonus-section-img{
+    width: max-content;
+}
+
+.bonus-section-img img{
+    width: 400px;
+}
